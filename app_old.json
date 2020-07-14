@@ -1,0 +1,69 @@
+{
+  "expo": {
+    "name": "CTRRider",
+    "description": "Taxi Booking App",
+    "slug": "CTRRider",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "notification": {
+      "icon": "./assets/images/push_notification.png"
+    },
+    "version": "1.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/appIcon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "usesAppleSignIn": true,
+      "bundleIdentifier": "com.ctr.CTRRider",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app uses the location to find the Cabs near you.",
+        "NSCameraUsageDescription": "This app uses the camera to take your profile picture.",
+        "NSPhotoLibraryUsageDescription": "This app uses Photo Library for uploading your profile picture.",
+        "ITSAppUsesNonExemptEncryption":false,
+        "UIBackgroundModes": [
+          "fetch"
+        ]
+      },
+      "config": {
+        "googleMapsApiKey": "AIzaSyDIyfr2djTtu-LnqqQSBGSoVbsLEIjoT34"
+      },
+      "buildNumber": "1.0"
+    },
+    "android": {
+      "package": "com.ctr.CTRRider",
+      "versionCode": 10,
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "CAMERA_ROLL"
+      ],
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDIyfr2djTtu-LnqqQSBGSoVbsLEIjoT34"
+        }
+      }
+    },
+    "extra":{
+        "googlemapkey":"AIzaSyDIyfr2djTtu-LnqqQSBGSoVbsLEIjoT34"
+    }
+  }
+}

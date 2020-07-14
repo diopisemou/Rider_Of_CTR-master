@@ -1,0 +1,47 @@
+{
+    "project_info": {
+      "project_number": "338139831512",
+      "firebase_url": "https://ctr-new-database.firebaseio.com",
+      "project_id": "ctr-new-database",
+      "storage_bucket": "ctr-new-database.appspot.com"
+    },
+    "client": [
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:338139831512:android:da8527f9c982ef145a0bad",
+          "android_client_info": {
+            "package_name": "com.ctr.CTRRider"
+          }
+        },
+        "oauth_client": [
+          {
+            "client_id": "338139831512-ti8s5phk58rdid872ja5hpel0h30a5hp.apps.googleusercontent.com",
+            "client_type": 3
+          }
+        ],
+        "api_key": [
+          {
+            "current_key": "AIzaSyBdpHgId7T5y6WBZEEkVJEhW5Gpszba9Io"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": [
+              {
+                "client_id": "338139831512-ti8s5phk58rdid872ja5hpel0h30a5hp.apps.googleusercontent.com",
+                "client_type": 3
+              },
+              {
+                "client_id": "338139831512-qj28dafjojr9b5kftj2n3srdv2rifh8l.apps.googleusercontent.com",
+                "client_type": 2,
+                "ios_info": {
+                  "bundle_id": "com.exicube.grabcabdriverapp"
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "configuration_version": "1"
+  }
